@@ -81,3 +81,13 @@ main {
   &.kr { --color: #B7E7F7; filter: saturate(200%); }
   &.xe { --color: #C4C4C6; filter: brightness(105%); }
 }
+.link{
+  text-align: center;
+  color: rgb(88, 24, 167);
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Neon Glow';
+  text-shadow: 0 0 var(--blur) var(--glow);
+}
